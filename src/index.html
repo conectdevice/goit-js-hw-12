@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomeWork 12</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <form class="search-form">
+        <input
+          type="text"
+          name="search-query"
+          class="search-input"
+          placeholder="Search images..."
+        />
+        <button type="submit" class="search-button">Search</button>
+      </form>
+    </header>
+    <main>
+      <ul class="gallery"></ul>
+      <div class="loader hidden">Loading...</div>
+    </main>
+    <script type="module" src="./main.js"></script>
+    <script type="module" src="./js/pixabay-api.js"></script>
+    <script type="module" src="./js/render-functions.js"></script>
+
+  </body>
+</html>
